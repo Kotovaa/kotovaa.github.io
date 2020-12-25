@@ -597,7 +597,7 @@ a:hover, a:focus, a:active {
 
 @media screen and (max-width: 768px) {
   .probootstrap-hero .probootstrap-slider-text h1 {
-    font-size: 50px;
+    font-size: 29px !important;
     line-height: 40px;
   }
 }
