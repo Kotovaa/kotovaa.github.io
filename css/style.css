@@ -12,6 +12,18 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Sunday';
+  src: url('../fonts/Sunday-Regular.eot');
+  src: url('../fonts/Sunday-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Sunday-Regular.woff2') format('woff2'),
+  url('../fonts/Sunday-Regular.woff') format('woff'),
+  url('../fonts/Sunday-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 html {
   overflow-x: hidden;
@@ -23,13 +35,13 @@ body {
   line-height: 26px;
   font-size: 16px;
   font-weight: 300;
-  font-family: "Lato", Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #000000;
   line-height: 1.5;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -1378,7 +1390,7 @@ a:hover, a:focus, a:active {
   font-size: 40px;
   color: #000000;
   margin-bottom: 10px;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .probootstrap-counter-wrap .probootstrap-text .probootstrap-counter-label {
@@ -1695,7 +1707,7 @@ a:hover, a:focus, a:active {
   margin-top: 10px;
   font-size: 12px;
   color: #b3b2b2;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: italic;
 }
 
@@ -2999,4 +3011,16 @@ a:hover, a:focus, a:active {
     float: none;
     width: 100%;
   }
+}
+
+.logo_text {
+  font-family: 'Sunday';
+  font-weight: normal;
+  font-style: normal;
+  margin-left: 10px;
+}
+.logo_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
